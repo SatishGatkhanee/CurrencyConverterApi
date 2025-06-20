@@ -97,9 +97,9 @@ The JWT payload includes:
 - Unit & Integration Tests
 
 ### Core Endpoints
-- GET /api/v1/rates/latest?base=USD — Latest exchange rates
-- GET /api/v1/convert?from=USD&to=INR&amount=100 — Currency conversion
-- GET /api/v1/rates/history?base=EUR&start=2020-01-01&end=2020-01-31&page=1&pageSize=10 — Historical rates (paginated)
+- GET `/api/v1/rates/latest?base=USD` — Latest exchange rates
+- GET `/api/v1/convert?from=USD&to=INR&amount=100` — Currency conversion
+- GET `/api/v1/rates/history?base=EUR&start=2020-01-01&end=2020-01-31&page=1&pageSize=10` — Historical rates (paginated)
 
 ### Assumptions
 - The default exchange provider is Frankfurter API
