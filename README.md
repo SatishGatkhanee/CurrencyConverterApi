@@ -18,10 +18,10 @@ A robust, scalable, and secure ASP.NET Core Web API for real-time and historical
 
 # **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/currency-converter-api.git
-   cd currency-converter-api
+   git clone https://github.com/SatishGatkhanee/CurrencyConverterApi.git
+   cd CurrencyConverterApi
 
-# Configure App Settings
+#Configure App Settings
 Edit appsettings.{Environment}.json as needed:
 
 json
@@ -35,11 +35,11 @@ json
   "AllowedHosts": "*"
 }
 
-3. Run the Application
+#Run the Application
 bash
 dotnet run --launch-profile "Development"
 
-4.Access Swagger UI
+#Access Swagger UI
 https://localhost:{port}/swagger
 
 #Run Tests with Coverage
