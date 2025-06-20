@@ -21,8 +21,10 @@ A robust, scalable, and secure ASP.NET Core Web API for real-time and historical
 
 ### Configure App Settings
 - Edit appsettings.{Environment}.json as needed:
-json
-{
+  
+#json
+
+`{
   "Jwt": {
     "Issuer": "your-app",
     "Audience": "your-users",
@@ -30,7 +32,7 @@ json
   },
   "ExchangeProvider": "frankfurter",
   "AllowedHosts": "*"
-}
+}`
 
 ### Run the Application
 bash
