@@ -13,17 +13,14 @@ A robust, scalable, and secure ASP.NET Core Web API for real-time and historical
 - Seq or ELK Stack (optional — for structured logging)
 - Docker (optional — for containerized deployment)
 - PostgreSQL or SQL Server (optional — for persistence)
-
-### Installation
-
-# **Clone the Repository**
+  
+#Clone the Repository
    ```bash
    git clone https://github.com/SatishGatkhanee/CurrencyConverterApi.git
    cd CurrencyConverterApi
 
 #Configure App Settings
 Edit appsettings.{Environment}.json as needed:
-
 json
 {
   "Jwt": {
