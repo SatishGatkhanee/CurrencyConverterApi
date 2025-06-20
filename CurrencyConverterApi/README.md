@@ -1,10 +1,10 @@
-﻿# 💱 Currency Converter API
+﻿# Currency Converter API
 
 A robust, scalable, and secure ASP.NET Core Web API for real-time and historical currency conversions. Supports JWT authentication, rate limiting, structured logging, distributed tracing, and dynamic provider selection.
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
