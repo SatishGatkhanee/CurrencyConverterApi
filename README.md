@@ -47,6 +47,37 @@ dotnet test --collect:"XPlat Code Coverage"
 bash
 reportgenerator -reports:**/coverage.cobertura.xml -targetdir:coverage-report -reporttypes:Html
 
+🔐 **Authentication Endpoint**
+The API includes a basic JWT-based authentication controller to issue tokens for secured access.
+
+🔑 **POST /api/auth/login**
+Description: Generates a JWT token upon successful login using hardcoded credentials. This token can then be used for authenticated and role-based requests.
+
+**Sample Request Body:**
+json
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+**Available Users:**
+Username	Password	Role
+admin	admin123	Admin
+user	user123	User
+
+**Sample Response:**
+json
+{
+  "token": "{JWT token here}"
+}
+
+**Notes:**
+The JWT payload includes:
+name claim with the username
+role claim with user role (Admin or User)
+Token expiration is defined in appsettings.json under Jwt:ExpireMinutes.
+Authentication is disabled by default via "IsAuthEnabled": false. You can enable it by setting this to true.
+
 #Features
 -JWT Authentication with Role-Based Access Control (RBAC)
 -Real-time & Historical Currency Conversion
